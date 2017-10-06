@@ -1,0 +1,30 @@
+{
+    "name": "Theme-Dusty-Light",
+    "displayName": "Dusty Light Theme",
+    "description": "Light theme",
+    "version": "0.1.0",
+    "publisher": "Dustin",
+    "author": "Dustin Hershman",
+    "engines": {
+        "vscode": "^0.10.1"
+    },
+    "license": "MIT",
+    "categories": [
+        "Themes"
+    ],
+    "icon": "icon.png",
+    "homepage": "https://github.com/dhershman1/dusty-light/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dhershman1/dusty-light.git"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dusty Light",
+                "uiTheme": "vs",
+                "path": "./themes/dusty-light.tmTheme"
+            }
+        ]
+    }
+}
