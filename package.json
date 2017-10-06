@@ -1,7 +1,7 @@
 {
     "name": "Theme-Dusty-Light",
     "displayName": "Dusty Light Theme",
-    "description": "Light theme",
+    "description": "Another Light theme that uses easier to read syntax highlighting",
     "version": "0.1.0",
     "publisher": "Dustin",
     "author": "Dustin Hershman",
@@ -23,7 +23,7 @@
             {
                 "label": "Dusty Light",
                 "uiTheme": "vs",
-                "path": "./themes/dusty-light.tmTheme"
+                "path": "./themes/dusty-light.json"
             }
         ]
     }
