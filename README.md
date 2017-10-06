@@ -20,12 +20,12 @@ Feel free to open a PR for stuff you find, or simply report it via the github is
 
 ### JavaScript
 
-![](js.png)
+![](https://lh3.googleusercontent.com/JT6cHWP8TdnuUl8YpFijMxrmrWllzQY4sRxugBMoLMi9khz8oOXVoI6eYG5w1ngbh4o83ZcCTgLPEpI=w1701-h973)
 
 ### Sass
 
-![](scss.png)
+![](https://lh5.googleusercontent.com/JrKJdzX08gMm6UPHKgtOKC64LNswCb8Tf2SJf2RbSGl4q4OP95nlC1N12EegC9urRlMumWmMSa0t8Qc=w1701-h973)
 
 ### Vue.js (Component with html template and scripts)
 
-![](vue.png)
+![](https://lh6.googleusercontent.com/pbHDZMCQNDMTs1rYfgjXIskipceb16S6CCjWOGHUu4eRPyRCnMwivEmLI4GZ3pdauq3PEXTJle8CUC8=w1701-h973)
