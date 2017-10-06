@@ -3,7 +3,7 @@
     "displayName": "Dusty Light Theme",
     "description": "Another Light theme that uses easier to read syntax highlighting",
     "version": "0.1.0",
-    "publisher": "Dustin",
+    "publisher": "dhershman",
     "author": "Dustin Hershman",
     "engines": {
         "vscode": "^0.10.1"
