@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
 	"name": "Theme-Dusty-Light",
 	"displayName": "Dusty Light Theme",
 	"description": "Another Light theme that uses easier to read syntax highlighting",
@@ -33,34 +32,4 @@
 		"publisherId": "8390e5a7-db51-4cbb-ab99-781dfe905a44",
 		"publisherDisplayName": "dhershman"
 	}
-=======
-    "name": "Theme-Dusty-Light",
-    "displayName": "Dusty Light Theme",
-    "description": "Another Light theme that uses easier to read syntax highlighting",
-    "version": "0.1.1",
-    "publisher": "dhershman",
-    "author": "Dustin Hershman",
-    "engines": {
-        "vscode": "^0.10.1"
-    },
-    "license": "MIT",
-    "categories": [
-        "Themes"
-    ],
-    "icon": "icon.png",
-    "homepage": "https://github.com/dhershman1/dusty-light/blob/master/README.md",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/dhershman1/dusty-light.git"
-    },
-    "contributes": {
-        "themes": [
-            {
-                "label": "Dusty Light",
-                "uiTheme": "vs",
-                "path": "./themes/dusty-light.json"
-            }
-        ]
-    }
->>>>>>> aedd30f57d2086904084897b2af5f8673db00ed3
 }
