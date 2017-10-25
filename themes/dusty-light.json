@@ -57,7 +57,8 @@
         "support.variable.property.dom",
         "variable.other.object",
         "variable.other.object.property",
-        "variable.other.property"
+        "variable.other.property",
+        "markup.inline.raw.string.markdown"
       ],
       "settings": {
         "foreground": "#42B24D"
@@ -86,14 +87,23 @@
     },
     {
       "name": "Keyword & Storage",
-      "scope": ["keyword", "storage", "storage.type", "declaration.tag"],
+      "scope": [
+        "keyword",
+        "storage",
+        "storage.type",
+        "declaration.tag",
+        "beginning.punctuation.definition.quote.markdown"
+      ],
       "settings": {
         "foreground": "#A184CE"
       }
     },
     {
       "name": "Entity Tags",
-      "scope": "entity.name.tag",
+      "scope": [
+        "entity.name.tag",
+        "markup.heading.markdown"
+      ],
       "settings": {
         "foreground": "#CE5C39"
       }
@@ -107,7 +117,11 @@
     },
     {
       "name": "Module Name",
-      "scope": ["entity.name.type.module", "entity.name.type"],
+      "scope": [
+        "entity.name.type.module",
+        "entity.name.type",
+        "markup.bold.markdown"
+      ],
       "settings": {
         "foreground": "#DB8734"
       }
