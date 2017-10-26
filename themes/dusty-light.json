@@ -1,6 +1,7 @@
 {
   "name": "Dusty Light",
   "type": "light",
+  "author": "Dustin",
   "colors": {
     "editorOverviewRuler.wordHighlightStrongForeground": "#FAEBAF",
     "editor.background": "#ffffff",
@@ -16,9 +17,71 @@
     "activityBarBadge.background": "#3399ff",
     "activityBarBadge.foreground": "#ffffff",
     "list.inactiveSelectionBackground": "#d0d0d0",
-    "list.activeSelectionBackground": "#3399ff"
+    "list.activeSelectionBackground": "#3399ff",
+    "notification.buttonBackground": "#eeeeee",
+    "notification.buttonForeground": "#555555",
+    "notification.buttonHoverBackground": "#d0d0d0",
+    "notification.errorBackground": "#FF5555",
+    "notification.errorForeground": "#555555",
+    "notification.infoBackground": "#8BE9FD",
+    "notification.infoForeground": "#282A36",
+    "notification.warningBackground": "#FFB86C",
+    "notification.warningForeground": "#282A36",
+    "peekViewResult.fileForeground": "#555555",
+    "peekViewResult.lineForeground": "#555555",
+    "scrollbar.shadow": null,
+    "welcomePage.buttonBackground": null,
+    "welcomePage.buttonHoverBackground": null,
+    "widget.shadow": null
   },
   "tokenColors": [
+    {
+      "scope": [
+        "emphasis"
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "strong"
+      ],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "source"
+      ],
+      "settings": {
+        "foreground": "#555555"
+      }
+    },
+    {
+      "name": "Edge cases (foreground color resets)",
+      "scope": [
+        "constant.other.symbol.hashkey.ruby",
+        "keyword.operator.dereference.java",
+        "keyword.operator.navigation.groovy",
+        "meta.scope.for-loop.shell punctuation.definition.string.begin",
+        "meta.scope.for-loop.shell punctuation.definition.string.end",
+        "meta.scope.for-loop.shell string",
+        "storage.modifier.import",
+        "punctuation.section.embedded.begin.tsx",
+        "punctuation.section.embedded.end.tsx",
+        "punctuation.section.embedded.begin.jsx",
+        "punctuation.section.embedded.end.jsx",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html",
+        "punctuation.separator.list.comma.css",
+        "constant.language.empty-list.haskell"
+      ],
+      "settings": {
+        "foreground": "#555555"
+      }
+    },
     {
       "name": "Comment",
       "scope": "comment",
@@ -36,7 +99,14 @@
     },
     {
       "name": "Regex & Variables",
-      "scope": ["string.regexp", "variable", "support.other.variable", "string.other.link", "support.variable.property"],
+      "scope": [
+        "string.regexp",
+        "variable",
+        "support.other.variable",
+        "string.other.link",
+        "support.variable.property",
+        "support.type.property-name.json"
+      ],
       "settings": {
         "foreground": "#CC5C52"
       }
@@ -44,7 +114,8 @@
     {
       "name": "Operators, misc",
       "scope": [
-        "keyword.operator.class", "constant.other", "source.php.embedded.line"
+        "keyword.operator.class",
+        "source.php.embedded.line"
       ],
       "settings": {
         "foreground": "#639999"
@@ -66,21 +137,38 @@
     },
     {
       "name": "Constants and Numerics",
-      "scope": ["constant.numeric", "constant.language", "support.constant", "constant.character", "variable.parameter", "punctuation.section.embedded", "keyword.other.unit"],
+      "scope": [
+        "constant.numeric",
+        "constant.language",
+        "support.constant",
+        "constant.character",
+        "variable.parameter",
+        "punctuation.section.embedded",
+        "keyword.other.unit"
+      ],
       "settings": {
         "foreground": "#DE9E59"
       }
     },
     {
       "name": "Keyword Operators",
-      "scope": ["keyword.operator", "constant.other.color"],
+      "scope": [
+        "keyword.operator",
+        "constant.other.color"
+      ],
       "settings": {
         "foreground": "#82B9BB"
       }
     },
     {
       "name": "Function and special methods",
-      "scope": ["entity.name.function", "meta.function-call", "support.function", "keyword.other.special-method", "meta.block-level"],
+      "scope": [
+        "entity.name.function",
+        "meta.function-call",
+        "support.function",
+        "keyword.other.special-method",
+        "meta.block-level"
+      ],
       "settings": {
         "foreground": "#80A4BE"
       }
@@ -92,7 +180,8 @@
         "storage",
         "storage.type",
         "declaration.tag",
-        "beginning.punctuation.definition.quote.markdown"
+        "beginning.punctuation.definition.quote.markdown",
+        "meta.directive.vue"
       ],
       "settings": {
         "foreground": "#A184CE"
@@ -110,7 +199,10 @@
     },
     {
       "name": "Tag Attributes",
-      "scope": "entity.other.attribute-name",
+      "scope": [
+        "meta.tag.inline.any",
+        "meta.tag.block.any.html"
+      ],
       "settings": {
         "foreground": "#8E7808"
       }
@@ -120,10 +212,24 @@
       "scope": [
         "entity.name.type.module",
         "entity.name.type",
-        "markup.bold.markdown"
+        "markup.bold.markdown",
+        "meta.at-rule.extend",
+        "punctuation.definition.entity.css",
+        "entity.other.attribute-name.class"
       ],
       "settings": {
         "foreground": "#DB8734"
+      }
+    },
+    {
+      "name": "Bold Class Names",
+      "scope": [
+        "entity.name.type",
+        "keyword.operator.new",
+        "variable.language.this"
+      ],
+      "settings": {
+        "fontStyle": "bold"
       }
     },
     {
