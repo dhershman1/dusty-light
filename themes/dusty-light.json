@@ -201,6 +201,8 @@
       "name": "Tag Attributes",
       "scope": [
         "meta.tag.inline.any",
+        "meta.tag.any.html",
+        "meta.tag.other.html",
         "meta.tag.block.any.html"
       ],
       "settings": {

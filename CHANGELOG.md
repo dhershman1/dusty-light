@@ -1,4 +1,8 @@
-## v0.2.0
+# v0.2.1
+
+> - Fix syntax highlighting for some attributes in html/vue
+
+# v0.2.0
 
 > - Revamp some highlighting
 > - Better CSS/SCSS highlighting
@@ -8,6 +12,6 @@
 > - Drop Widget Shadow
 > - Added some scopes and edge cases
 
-## v0.1.2
+# v0.1.2
 
 > - Better Markdown support for syntax highlighting
