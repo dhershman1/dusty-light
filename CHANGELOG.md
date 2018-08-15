@@ -1,3 +1,7 @@
+# v0.3.0
+
+> - Added Syntax highlights for italic in markdown
+
 # v0.2.1
 
 > - Fix syntax highlighting for some attributes in html/vue

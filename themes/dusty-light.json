@@ -181,7 +181,8 @@
         "storage.type",
         "declaration.tag",
         "beginning.punctuation.definition.quote.markdown",
-        "meta.directive.vue"
+        "meta.directive.vue",
+        "markup.italic.markdown"
       ],
       "settings": {
         "foreground": "#A184CE"
