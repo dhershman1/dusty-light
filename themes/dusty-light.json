@@ -3,36 +3,35 @@
   "type": "light",
   "author": "Dustin",
   "colors": {
-    "editorOverviewRuler.wordHighlightStrongForeground": "#FAEBAF",
+    "activityBarBadge.background": "#e7e7e7",
+    "activityBarBadge.foreground": "#2D3033",
+    "bade.background": "#e7e7e7",
+    "badge.foreground": "#2D3033",
+    "button.background": "#e7e7e7",
+    "button.foreground": "#2D3033",
+    "button.hoverBackground": "#f2f2f2",
     "editor.background": "#ffffff",
-    "editor.foreground": "#555555",
-    "editorCursor.foreground": "#333333",
+    "editor.foreground": "#2D3033",
     "editor.invisibles": "#DDDDDD",
-    "editor.selectionBackground": "#d0d0d0",
-    "editor.rangeHighlightBackground": "#FDF7DD",
     "editor.lineHighlightBackground": "#FDF7DDBB",
-    "editorWhitespace.foreground": "#eeeeee",
-    "editorLink.activeForeground": "#80A4BE",
+    "editor.rangeHighlightBackground": "#FDF7DD",
+    "editor.selectionBackground": "#d0d0d0",
+    "editorCursor.foreground": "#333333",
     "editorLineNumber.foreground": "#d0d0d0",
-    "activityBarBadge.background": "#3399ff",
-    "activityBarBadge.foreground": "#ffffff",
+    "editorLink.activeForeground": "#80A4BE",
+    "editorOverviewRuler.wordHighlightStrongForeground": "#FAEBAF",
+    "editorWhitespace.foreground": "#eeeeee",
+    "list.activeSelectionBackground": "#e7e7e7",
     "list.inactiveSelectionBackground": "#d0d0d0",
-    "list.activeSelectionBackground": "#3399ff",
-    "notification.buttonBackground": "#eeeeee",
-    "notification.buttonForeground": "#555555",
-    "notification.buttonHoverBackground": "#d0d0d0",
-    "notification.errorBackground": "#FF5555",
-    "notification.errorForeground": "#555555",
-    "notification.infoBackground": "#8BE9FD",
-    "notification.infoForeground": "#282A36",
-    "notification.warningBackground": "#FFB86C",
-    "notification.warningForeground": "#282A36",
-    "peekViewResult.fileForeground": "#555555",
-    "peekViewResult.lineForeground": "#555555",
-    "scrollbar.shadow": null,
+    "peekViewResult.fileForeground": "#2D3033",
+    "peekViewResult.lineForeground": "#2D3033",
+    "sideBar.foreground": "#2D3033",
+    "statusBar.background": "#e7e7e7",
+    "statusBar.foreground": "#2D3033",
+    "statusBarItem.activeBackground": "#f2f2f2",
+    "statusBarItem.hoverBackground": "#f2f2f2",
     "welcomePage.buttonBackground": null,
-    "welcomePage.buttonHoverBackground": null,
-    "widget.shadow": null
+    "welcomePage.buttonHoverBackground": null
   },
   "tokenColors": [
     {
@@ -56,7 +55,7 @@
         "source"
       ],
       "settings": {
-        "foreground": "#555555"
+        "foreground": "#2D3033"
       }
     },
     {
@@ -79,7 +78,7 @@
         "constant.language.empty-list.haskell"
       ],
       "settings": {
-        "foreground": "#555555"
+        "foreground": "#2D3033"
       }
     },
     {
@@ -88,6 +87,15 @@
       "settings": {
         "fontStyle": "italic",
         "foreground": "#93A1A1"
+      }
+    },
+    {
+      "name": "Elm Specific",
+      "scope": [
+        "punctuation.parens.ellipses.elm"
+      ],
+      "settings": {
+        "foreground": "#639999"
       }
     },
     {
@@ -102,6 +110,7 @@
       "scope": [
         "string.regexp",
         "variable",
+        "record.name",
         "support.other.variable",
         "string.other.link",
         "support.variable.property",
@@ -115,7 +124,8 @@
       "name": "Operators, misc",
       "scope": [
         "keyword.operator.class",
-        "source.php.embedded.line"
+        "source.php.embedded.line",
+        "constant.type-constructor"
       ],
       "settings": {
         "foreground": "#639999"
@@ -124,6 +134,7 @@
     {
       "name": "Dom & Object variable types",
       "scope": [
+        "record.accessor",
         "support.variable.dom",
         "support.variable.property.dom",
         "variable.other.object",
@@ -144,7 +155,8 @@
         "constant.character",
         "variable.parameter",
         "punctuation.section.embedded",
-        "keyword.other.unit"
+        "keyword.other.unit",
+        "support.module"
       ],
       "settings": {
         "foreground": "#DE9E59"
@@ -237,9 +249,11 @@
     },
     {
       "name": "Separators",
-      "scope": ["meta.separator"],
+      "scope": [
+        "meta.separator"
+      ],
       "settings": {
-        "foreground": "#555555"
+        "foreground": "#2D3033"
       }
     },
     {

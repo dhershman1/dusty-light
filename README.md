@@ -4,6 +4,8 @@ Another VSCode light theme
 
 Should support most main languages however I obviously am unable to test everything, so I stuck to my main scope.
 
+Each color simply changes the accent coloring of the UI The syntax highlighting will remain the same between each theme
+
 ## Contributing
 
 Feel free to open a PR for stuff you find, or simply report it via the github issues so I can also take a look at it.

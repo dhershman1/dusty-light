@@ -2,11 +2,11 @@
 	"name": "Theme-Dusty-Light",
 	"displayName": "Dusty Light Theme",
 	"description": "Another Light theme that uses easier to read syntax highlighting",
-	"version": "0.2.1",
+	"version": "0.3.0",
 	"publisher": "dhershman",
 	"author": "Dustin Hershman",
 	"engines": {
-		"vscode": "^0.10.1"
+		"vscode": "^1.25.0"
 	},
 	"license": "MIT",
 	"categories": [
@@ -30,6 +30,21 @@
 				"label": "Dusty Light",
 				"uiTheme": "vs",
 				"path": "./themes/dusty-light.json"
+			},
+			{
+				"label": "Dusty Light Purple",
+				"uiTheme": "vs",
+				"path": "./themes/dusty-light-purple.json"
+			},
+			{
+				"label": "Dusty Light Blue",
+				"uiTheme": "vs",
+				"path": "./themes/dusty-light-blue.json"
+			},
+			{
+				"label": "Dusty Light Mint",
+				"uiTheme": "vs",
+				"path": "./themes/dusty-light-mint.json"
 			}
 		]
 	},
