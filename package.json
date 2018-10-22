@@ -16,7 +16,9 @@
 		"dusty",
 		"light",
 		"theme",
-		"color-theme"
+		"color-theme",
+		"mixture",
+		"non-jarring"
 	],
 	"icon": "icon.png",
 	"homepage": "https://github.com/dhershman1/dusty-light/blob/master/README.md",
