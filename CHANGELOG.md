@@ -1,3 +1,7 @@
+# v0.4.0
+
+> - New theme based on MDN coloring built by @dougkellermeyer
+
 # v0.3.0
 
 > - Added Syntax highlights for italic in markdown

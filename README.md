@@ -8,6 +8,10 @@ Should support most main languages however I obviously am unable to test everyth
 
 Each color simply changes the accent coloring of the UI The syntax highlighting will remain the same between each theme
 
+## Credits
+
+- @dougkellermeyer : Built the MDN colored theme
+
 ## Contributing
 
 Feel free to open a PR for stuff you find, or simply report it via the github issues so I can also take a look at it.
