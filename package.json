@@ -2,7 +2,7 @@
 	"name": "Theme-Dusty-Light",
 	"displayName": "Dusty Light Theme",
 	"description": "Another Light theme that uses easier to read syntax highlighting",
-	"version": "0.3.0",
+	"version": "0.4.0",
 	"publisher": "dhershman",
 	"author": "Dustin Hershman",
 	"engines": {
