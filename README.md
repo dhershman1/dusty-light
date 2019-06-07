@@ -10,7 +10,7 @@ Each color simply changes the accent coloring of the UI The syntax highlighting 
 
 ## Credits
 
-- @dougkellermeyer : Built the MDN colored theme
+- [dougkellermeyer](https://github.com/dougkellermeyer) : Built the MDN colored theme
 
 ## Contributing
 
