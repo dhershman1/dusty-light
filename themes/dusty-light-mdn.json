@@ -173,6 +173,15 @@
       }
     },
     {
+      "name": "Numerics",
+      "scope": [
+        "constant.numeric.decimal.js"
+      ],
+      "settings": {
+        "foreground": "#648d50"
+      }
+    },
+    {
       "name": "Keyword Operators",
       "scope": [
         "keyword.operator",
