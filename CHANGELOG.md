@@ -1,3 +1,8 @@
+# v0.4.1
+
+> - Fixed new theme not listing
+> - Fixed credits link
+
 # v0.4.0
 
 > - New theme based on MDN coloring built by @dougkellermeyer
