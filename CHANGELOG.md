@@ -1,3 +1,7 @@
+# v0.4.2
+
+> - Renamed the .json theme file
+
 # v0.4.1
 
 > - Fixed new theme not listing
