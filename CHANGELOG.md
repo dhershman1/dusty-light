@@ -1,3 +1,8 @@
+# v0.4.3
+
+> - Fixed Markdown highlighting and basic editor foreground highlighting so you don't go blind
+> - More fixes for the overall styles of the new MDN theme
+
 # v0.4.2
 
 > - Renamed the .json theme file

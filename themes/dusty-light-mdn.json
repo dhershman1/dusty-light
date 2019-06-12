@@ -11,7 +11,6 @@
     "button.foreground": "#2D3033",
     "button.hoverBackground": "#f2f2f2",
     "editor.background": "#ebebeb",
-    "editor.foreground": "#ffffff",
     "editor.invisibles": "#DDDDDD",
     "editor.lineHighlightBackground": "#f5f5f5",
     "editor.rangeHighlightBackground": "#FDF7DD",
@@ -24,10 +23,12 @@
     "editorOverviewRuler.wordHighlightStrongForeground": "#FAEBAF",
     "editorWhitespace.foreground": "#eeeeee",
     "list.activeSelectionBackground": "#e7e7e7",
+    "list.activeSelectionForeground": "#000000",
     "list.inactiveSelectionBackground": "#d0d0d0",
     "peekViewResult.fileForeground": "#2D3033",
     "peekViewResult.lineForeground": "#2D3033",
     "sideBar.foreground": "#000000",
+    "sideBarTitle.foreground:": "#000000",
     "sideBar.background": "#c5c5c5",
     "statusBar.background": "#d2d2d2",
     "statusBar.foreground": "#2D3033",
@@ -113,6 +114,13 @@
       "scope": "string",
       "settings": {
         "foreground": "#ff3e03"
+      }
+    },
+    {
+      "name": "HTML String",
+      "scope": "string.quoted.double.html",
+      "settings": {
+        "foreground": "#2da5e3"
       }
     },
     {
@@ -220,6 +228,15 @@
       }
     },
     {
+      "name": "Markdown",
+      "scope": [
+        "meta.paragraph.markdown"
+      ],
+      "settings": {
+        "foreground": "#0315b6"
+      }
+    },
+    {
       "name": "Keyword Control Flow (return)",
       "scope": [
         "keyword.control.flow.js"
@@ -241,10 +258,11 @@
       "name": "Entity Tags",
       "scope": [
         "entity.name.tag",
+        "entity.name.tag.html",
         "markup.heading.markdown"
       ],
       "settings": {
-        "foreground": "#CE5C39"
+        "foreground": "#990055"
       }
     },
     {
@@ -267,10 +285,11 @@
         "markup.bold.markdown",
         "meta.at-rule.extend",
         "punctuation.definition.entity.css",
-        "entity.other.attribute-name.class"
+        "entity.other.attribute-name.class",
+        "entity.other.attribute-name.html"
       ],
       "settings": {
-        "foreground": "#000000"
+        "foreground": "#006700"
       }
     },
     {
