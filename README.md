@@ -2,7 +2,7 @@
 
 Another VSCode light theme
 
-I built this theme because when I first wanted to switch to the light side, I found that most of the themes out there were super jarring. So I found them hard to use and stick to. Which led me to build this, a nice mixture that allows your to enjoy the main benefits of a light theme, without the jarring white out most come with.
+I built this theme because when I first wanted to switch to the light side, I found that most of the themes out there were super jarring. So I found them hard to use and stick to, which led me to build this. A nice mixture that allows you to enjoy the main benefits of a light theme, without the jarring white out most come with.
 
 Should support most main languages however I obviously am unable to test everything, so I stuck to my main scope.
 

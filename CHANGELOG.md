@@ -1,6 +1,7 @@
 # v0.4.4
 
 > - Fixed some contrast problems with the MDN theme tabs
+> - Fixed some typos in README
 
 # v0.4.3
 
