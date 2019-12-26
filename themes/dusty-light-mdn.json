@@ -34,6 +34,8 @@
     "statusBar.foreground": "#2D3033",
     "statusBarItem.activeBackground": "#f2f2f2",
     "statusBarItem.hoverBackground": "#f2f2f2",
+    "tab.inactiveBackground": "#f7f7f7",
+    "tab.activeBorder": "#80A4BE",
     "welcomePage.buttonBackground": null,
     "welcomePage.buttonHoverBackground": null,
     "terminal.background": "#2D3033",

@@ -1,3 +1,7 @@
+# v0.4.4
+
+> - Fixed some contrast problems with the MDN theme tabs
+
 # v0.4.3
 
 > - Fixed Markdown highlighting and basic editor foreground highlighting so you don't go blind
