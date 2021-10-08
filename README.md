@@ -16,6 +16,8 @@ Each color simply changes the accent coloring of the UI The syntax highlighting 
 
 Feel free to open a PR for stuff you find, or simply report it via the github issues so I can also take a look at it.
 
+I obviously don't use every aspect of vscode so if you find a piece thats hard to see/make out please report it!
+
 ## Preview
 
 ### JavaScript

@@ -1,3 +1,9 @@
+# v1.0.0
+
+> - Full Release since I'm happy with where the theme is
+> - Fixed status bar when opening without a folder being purple in all themes
+> - Changed the purple status bar foreground to white instead of black
+
 # v0.4.4
 
 > - Fixed some contrast problems with the MDN theme tabs
