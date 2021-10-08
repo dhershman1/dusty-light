@@ -31,6 +31,8 @@
     "peekViewResult.lineForeground": "#2D3033",
     "sideBar.foreground": "#2D3033",
     "statusBar.background": "#3399ff",
+    "statusBar.noFolderBackground": "#3399ff",
+    "statusBar.noFolderForeground": "#2D3033",
     "statusBarItem.activeBackground": "#71b8ff",
     "statusBarItem.hoverBackground": "#71b8ff",
     "welcomePage.buttonBackground": null,

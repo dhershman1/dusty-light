@@ -28,6 +28,8 @@
     "sideBar.foreground": "#2D3033",
     "statusBar.background": "#e7e7e7",
     "statusBar.foreground": "#2D3033",
+    "statusBar.noFolderBackground": "#e7e7e7",
+    "statusBar.noFolderForeground": "#2D3033",
     "statusBarItem.activeBackground": "#f2f2f2",
     "statusBarItem.hoverBackground": "#f2f2f2",
     "welcomePage.buttonBackground": null,
